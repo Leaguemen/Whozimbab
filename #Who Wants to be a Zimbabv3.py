@@ -37,7 +37,7 @@ class Player:
         if self.live >0 :
             print("Aw darn it, lost a life. Don't worry you still have "+ str(self.live) +" left!")
         else :
-            print("GAME OVER")
+            print("GAME OVER, your score is "+ str(self.points)+" ZWD")
             exit()
 
 print("################################")
